@@ -1,5 +1,7 @@
-/* setting */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,600;1,700&display=swap");
 
+/* setting */
 @import "reset.css";
 
 /* components */
@@ -10,10 +12,8 @@
 @import "screens/index.css";
 
 body {
-  background-color: white;
-  height: 1000vh;
-}
-
-body a {
-  color: silver;
+  /* background-color: white; */
+  font-family: "KoHo", sans-serif;
+  height: 500vh;
+  background-color: rgba(0, 0, 0, 0.8);
 }
