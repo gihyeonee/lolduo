@@ -1,0 +1,77 @@
+.index-intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 150px 30px 50px 30px;
+  background-color: slategray;
+  color: white;
+}
+
+.index-intro__title {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.index-intro__subtitle {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+
+.index-intro__summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.index-intro__adbox {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.index-intro__ad {
+  margin: 5px 0px;
+}
+
+.index-main__summary {
+  padding: 50px 30px;
+  box-sizing: border-box;
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-main__title {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.index-main__textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-main__text {
+  text-align: center;
+}

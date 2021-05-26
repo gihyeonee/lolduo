@@ -1,0 +1,19 @@
+/* setting */
+
+@import "reset.css";
+
+/* components */
+@import "components/menu-bar.css";
+@import "components/fix-kakao.css";
+
+/* screens */
+@import "screens/index.css";
+
+body {
+  background-color: white;
+  height: 1000vh;
+}
+
+body a {
+  color: silver;
+}

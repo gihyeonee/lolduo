@@ -1,0 +1,32 @@
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color: gold;
+  position: fixed;
+  top: 0;
+}
+
+.menu-bar__title {
+  width: 80%;
+  padding: 17px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar__menu {
+  width: 90%;
+  padding: 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu-bar__content {
+  width: 25%;
+  text-align: center;
+}
