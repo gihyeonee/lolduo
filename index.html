@@ -2,6 +2,11 @@
 <html lang="kr">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      sizes="16*16 32*32 64*64"
+      href="img/logo-color.jpg"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,15 +14,64 @@
   </head>
   <body>
     <div class="menu-bar">
-      <img class="menu-bar__title" src="img/logo-text.png" />
+      <a class="menu-bar__title" href="index.html">카시팀</a>
     </div>
+
+    <label for="menu-button" class="menu-button--label">
+      <i class="fas fa-bars"></i>
+    </label>
+    <input type="checkbox" id="menu-button" />
+    <div class="menu-wrap">
+      <div class="side-menu">
+        <ul class="side-menu--list">
+          <li class="subset-box--none">
+            <a class="subset" href="#">공지사항</a>
+          </li>
+          <li class="subset-box--none">
+            <a class="subset" href="#">소개</a>
+          </li>
+          <li class="subset-box--two">
+            <a class="subset">이벤트</a>
+            <a href="#">진행중인 이벤트</a>
+            <a href="#">종료된 이벤트</a>
+          </li>
+          <li class="subset-box--four">
+            <a class="subset">가격표</a>
+            <a href="#">배치고사 가격표</a>
+            <a href="#">시간제 가격표</a>
+            <a href="#">판당제 가격표</a>
+            <a href="#">자유랭크 가격표</a>
+          </li>
+          <li class="subset-box--none">
+            <a class="subset" href="">기사현황</a>
+          </li>
+          <li class="subset-box--none">
+            <a class="subset" href="">작업현황</a>
+          </li>
+          <li class="subset-box--none">
+            <a class="subset" href="">작업후기</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <div class="intro">
+        <img src="img/cassio.png" />
+        <div class="intro__text-box">
+          <span class="intro__text">합리적인 가격</span>
+          <span class="intro__text">최고의 기사진</span>
+          <span class="intro__text">실력 & 티어 향상은</span>
+          <span class="intro__text">카시팀</span>
+        </div>
+      </div>
+    </main>
+
     <div class="fix-kakao__icon">빠른 상담</div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
-
-    </script>
   </body>
 </html>

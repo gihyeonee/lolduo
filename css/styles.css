@@ -16,4 +16,11 @@ body {
   font-family: "KoHo", sans-serif;
   height: 500vh;
   background-color: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+}
+
+main {
+  box-sizing: border-box;
+  padding: 0px 20px;
+  width: 100%;
 }

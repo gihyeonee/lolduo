@@ -1,11 +1,125 @@
 .menu-bar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  background-color: turquoise;
-  color: gold;
+  text-align: center;
+  background-color: black;
   position: fixed;
   top: 0;
+  padding: 18px 0px;
+}
+
+.menu-bar__title {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.side-menu {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  position: fixed;
+  left: -120px;
+  top: 100px;
+  opacity: 0.95;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu-button {
+  display: none;
+}
+
+#menu-button:checked + .menu-wrap .side-menu {
+  left: 0px;
+}
+
+.menu-button--label {
+  color: white;
+  position: fixed;
+  top: 20px;
+  left: 13px;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 0;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.menu-button--label:hover {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.side-menu--list li {
+  font-size: 0;
+  width: 110px;
+}
+.side-menu--list a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  height: 2rem;
+  line-height: 2rem;
+  background: #333;
+  padding-left: 1rem;
+  width: 180px;
+  font-size: 1.2rem;
+}
+.side-menu--list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.side-menu--list li a.subset {
+  font-size: 1.4rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  padding-left: 0.5rem;
+  background: #222;
+}
+
+.side-menu--list li {
+  height: 2.2rem;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.side-menu--list .subset-box--none:hover {
+  height: 3.5rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  width: 180px;
+}
+
+.side-menu--list .subset-box--two:hover {
+  height: 7rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  width: 180px;
+}
+
+.side-menu--list .subset-box--four:hover {
+  height: 11rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  width: 180px;
+}
+
+.side-menu--list li a:not(:first-child):hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: translateX(10px);
+  transform: translateX(10px);
 }
