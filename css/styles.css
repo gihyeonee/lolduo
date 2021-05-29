@@ -12,10 +12,8 @@
 @import "screens/index.css";
 
 body {
-  /* background-color: white; */
+  background-color: rgb(21, 10, 32);
   font-family: "KoHo", sans-serif;
-  height: 500vh;
-  background-color: rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
 }
 
@@ -23,4 +21,8 @@ main {
   box-sizing: border-box;
   margin-top: 63px;
   width: 100%;
+}
+
+.margin-box {
+  margin: 5%;
 }

@@ -1,12 +1,26 @@
 .fix-kakao__icon {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: gold;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 20px;
-  right: 10px;
+  bottom: 5%;
+  right: 5%;
+}
+
+.fix-kakao__icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 645px) {
+  .fix-kakao__icon {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+  }
 }
