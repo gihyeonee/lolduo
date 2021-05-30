@@ -1,0 +1,25 @@
+.sub-intro__text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.sub-intro__text-box span {
+  margin: 2%;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 645px) {
+  .sub-intro__text-box span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .sub-intro__text-box span {
+    font-size: 25px;
+  }
+}

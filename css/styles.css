@@ -3,13 +3,18 @@
 
 /* setting */
 @import "reset.css";
+@import "variable.css";
 
 /* components */
 @import "components/menu-bar.css";
 @import "components/fix-kakao.css";
+@import "components/intro.css";
+@import "components/sub-intro.css";
+@import "components/tier.css";
 
 /* screens */
 @import "screens/index.css";
+@import "screens/price.css";
 
 body {
   background-color: rgb(21, 10, 32);
