@@ -15,6 +15,7 @@
 /* screens */
 @import "screens/index.css";
 @import "screens/price.css";
+@import "screens/notice.css";
 
 body {
   background-color: rgb(21, 10, 32);
