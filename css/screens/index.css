@@ -6,8 +6,8 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-  background-color: #cbb8ee;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  /* background-color: #cbb8ee; */
   background-color: #c8c8ff;
 }
 
@@ -39,7 +39,7 @@
 .index-guide__text-box span {
   font-size: 20px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
   color: black;
 }
 
