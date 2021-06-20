@@ -31,6 +31,15 @@
 
 @media screen and (min-width: 645px) {
   .intro__text-box {
+    font-size: 30px;
+  }
+  .intro__text-box--normal {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .intro__text-box {
     font-size: 40px;
   }
   .intro__text-box--normal {
@@ -38,21 +47,19 @@
   }
 }
 
-@media screen and (min-width: 900px) {
-  .intro__text-box {
-    font-size: 60px;
-  }
-  .intro__text-box--normal {
-    font-size: 80px;
-  }
+.intro__text {
+  margin: 3% 0%;
+  text-align: center;
 }
 
-.intro__text {
-  margin-bottom: 6%;
+@media screen and (min-width: 645px) {
+  .intro__text {
+    margin: 4% 0%;
+  }
 }
 
 @media screen and (min-width: 900px) {
   .intro__text {
-    margin-bottom: 10%;
+    margin: 5% 0%;
   }
 }

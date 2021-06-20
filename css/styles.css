@@ -30,6 +30,12 @@ main {
   width: 100%;
 }
 
+@media screen and (min-width: 645px) {
+  main {
+    margin-top: 106px;
+  }
+}
+
 .margin-box {
   margin: 5%;
 }
