@@ -74,12 +74,12 @@
 
 .copyright-bar__text {
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   margin: 0.5% 0%;
 }
 
 @media screen and (min-width: 645px) {
   .copyright-bar__text {
-    font-size: 25px;
+    font-size: 20px;
   }
 }

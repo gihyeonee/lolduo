@@ -20,13 +20,22 @@
   align-items: center;
   position: absolute;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
 }
 
 .intro__text-box--normal {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 420px) {
+  .intro__text-box {
+    font-size: 20px;
+  }
+  .intro__text-box--normal {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 645px) {
@@ -47,9 +56,24 @@
   }
 }
 
+@media screen and (min-width: 1300px) {
+  .intro__text-box {
+    font-size: 50px;
+  }
+  .intro__text-box--normal {
+    font-size: 70px;
+  }
+}
+
 .intro__text {
   margin: 3% 0%;
   text-align: center;
+}
+
+@media screen and (min-width: 420px) {
+  .intro__text {
+    margin: 3% 0%;
+  }
 }
 
 @media screen and (min-width: 645px) {

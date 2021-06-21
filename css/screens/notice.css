@@ -1,6 +1,19 @@
-.notice__text-box {
+@media screen and (min-width: 900px) {
+  .notice__guide-big-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.notice__guide-wrap {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+
+.notice-image {
+  width: 100%;
+  margin: 10% 0%;
 }
