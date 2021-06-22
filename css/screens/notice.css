@@ -1,8 +1,22 @@
 @media screen and (min-width: 900px) {
   .notice__guide-big-wrap {
+    margin-top: 5%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .notice__guide-big-wrap .notice__guide-wrap:first-child {
+    padding-right: 3%;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .notice__guide-big-wrap .notice__guide-wrap:last-child {
+    padding-left: 3%;
+  }
+
+  .notice__guide-big-wrap .sub-intro__text-box--notice {
+    border: none;
   }
 }
 
@@ -16,4 +30,8 @@
 .notice-image {
   width: 100%;
   margin: 10% 0%;
+}
+
+.notice__guide-big-wrap .sub-intro__text-box--notice {
+  border-top: none;
 }
