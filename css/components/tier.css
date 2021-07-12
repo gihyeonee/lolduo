@@ -6,6 +6,14 @@
   align-items: center;
 }
 
+.team-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .tier-box {
   display: flex;
 }
@@ -17,7 +25,16 @@
   justify-content: center;
   align-items: center;
   margin: 2%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+}
+
+.tier-box__each--team {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
 }
 
 .tier-box__each img {
@@ -49,20 +66,32 @@
 .tier-box__each :nth-child(3) {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: turquoise; */
   color: var(--text-color);
   text-align: center;
   padding: 3% 0%;
   font-size: 12px;
 }
 
+.team-price {
+  width: 100%;
+  background-color: black;
+  color: var(--text-color);
+  text-align: center;
+  padding: 1.5% 0%;
+  font-size: 12px;
+}
+
 @media screen and (min-width: 645px) {
-  .tier-box__each :nth-child(3) {
+  .tier-box__each :nth-child(3),
+  .team-price {
     font-size: 15px;
   }
 }
 
 @media screen and (min-width: 900px) {
-  .tier-box__each :nth-child(3) {
+  .tier-box__each :nth-child(3),
+  .team-price {
     font-size: 20px;
   }
 }
